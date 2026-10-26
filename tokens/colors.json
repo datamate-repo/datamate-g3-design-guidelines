@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "Datamate G3 Color Tokens",
+  "light": {
+    "color.primaryDarkBlue": { "hex": "#20389B", "role": "Data grid header row, primary Save button" },
+    "color.surfaceVariant": { "hex": "#F5F7FA", "role": "Document Meta Section container background" },
+    "color.inputFill": { "hex": "#ECEFF2", "role": "Form inputs and grid inline inputs fill" },
+    "color.borderLight": { "hex": "#DCE1E7", "role": "Dividers, input strokes, footer top border" },
+    "color.semanticRed": { "hex": "#D32F2F", "role": "Header close button, critical auto-generated IDs, delete row action" },
+    "color.semanticWarning": { "hex": "#ED6C02", "role": "Clear / undo row action button" },
+    "color.semanticSuccess": { "hex": "#2E7D32", "role": "Add row action button, balanced status indicator" },
+    "color.totalsBand": { "hex": "#E8F5E9", "role": "Totals row full-width light green tint background" },
+    "color.textPrimary": { "hex": "#1E293B", "role": "High-contrast headings, text, labels" },
+    "color.textMuted": { "hex": "#64748B", "role": "Sub-input italicized balance and helper labels" }
+  },
+  "dark": {
+    "color.primaryDarkBlue": { "hex": "#133E68" },
+    "color.surfaceVariant": { "hex": "#1E2633" },
+    "color.inputFill": { "hex": "#273244" },
+    "color.borderLight": { "hex": "#334155" },
+    "color.semanticRed": { "hex": "#EF5350" },
+    "color.semanticWarning": { "hex": "#FFB74D" },
+    "color.semanticSuccess": { "hex": "#66BB6A" },
+    "color.totalsBand": { "hex": "#1B382B" },
+    "color.textPrimary": { "hex": "#F1F5F9" },
+    "color.textMuted": { "hex": "#94A3B8" }
+  }
+}

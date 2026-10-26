@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "Datamate G3 Component Dimensions",
+  "dimensions": {
+    "headerHeight": { "value": 64, "unit": "px", "description": "Fixed top navigation and context bar" },
+    "footerHeight": { "value": 64, "unit": "px", "description": "Fixed bottom progression and submission bar" },
+    "inputHeight": { "value": 40, "unit": "px", "description": "Form inputs and grid inline inputs" },
+    "gridHeaderHeight": { "value": 40, "unit": "px", "description": "Dark blue table column header row" },
+    "gridRowMinHeight": { "value": 48, "unit": "px", "description": "Minimum standard data row height" },
+    "inputRadius": { "value": 6, "unit": "px", "description": "Border radius for inputs (4px - 8px range)" },
+    "containerRadius": { "value": 8, "unit": "px", "description": "Border radius for Document Meta Section" },
+    "dividerThickness": { "value": 1, "unit": "px", "description": "Hairline divider and container border stroke" }
+  }
+}

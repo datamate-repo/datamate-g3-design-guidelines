@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "Datamate G3 Spacing Tokens",
+  "baseline": 8,
+  "tokens": {
+    "spacing.xxs": { "value": 4, "unit": "px", "description": "Helper text offset, micro-separators" },
+    "spacing.xs": { "value": 8, "unit": "px", "description": "Label-to-input gap, row action button spacing" },
+    "spacing.sm": { "value": 12, "unit": "px", "description": "Form input and grid cell interior padding" },
+    "spacing.md": { "value": 16, "unit": "px", "description": "Component gap, page V-margin, meta padding" },
+    "spacing.lg": { "value": 24, "unit": "px", "description": "Section gap, page H-margin" },
+    "spacing.xl": { "value": 32, "unit": "px", "description": "Extended layout gutters and multi-pane dividers" },
+    "spacing.xxl": { "value": 64, "unit": "px", "description": "Header bar and sticky footer fixed height" }
+  },
+  "layout": {
+    "pageMarginHorizontal": { "value": 24, "unit": "px" },
+    "pageMarginVertical": { "value": 16, "unit": "px" },
+    "sectionGap": { "value": 24, "unit": "px" },
+    "componentGap": { "value": 16, "unit": "px" }
+  }
+}
